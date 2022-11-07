@@ -1,0 +1,15 @@
+
+   .history-detial{
+       margin-top: 3rem;
+   }
+   .history-detial h2{
+       font-weight: 400;
+       text-align: left;
+   }
+   .history-detial .columns-cotan .item{
+    margin-left: 0;
+    margin-top: 20px;
+}
+.history-detial .columns-cotan .item p{
+    text-align: left;
+}

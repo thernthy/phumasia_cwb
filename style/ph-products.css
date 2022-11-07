@@ -1,0 +1,138 @@
+
+.start-products_detail{
+    width: 50%;
+    background-color: #E2D4BA;
+    margin: 20px auto;
+    padding-bottom: 10rem;
+}
+.start-products_detail .top-logo{
+   width: 60%;
+    z-index: 5;
+    margin: 20px auto;
+}
+.p-ductsitem p{
+   text-align: center;
+   font-size: 1rem;
+}
+.p-ductsitem h3{
+    padding-top: 2rem;
+    text-align: center;
+}
+.p-ductsitem {
+    padding-top: 2rem;
+}
+.product-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+.message-section{
+    margin: 4rem auto;
+    width: 50%;
+    height: 500px;
+    background-color: green;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+} 
+.message-section .contact-form label{
+    color: white;
+}
+.message-section .contact-form input[type="text"], textarea{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    color: black;
+    font-size: var(--font-moble);
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    height: 50px;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 1rem;
+    color: white;
+}
+
+.message-section .button{
+    padding: 10px 15px;
+    background-color: rgb(26, 57, 129);
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    border: 0;
+    margin-top:1rem;
+    border-radius: 10px;
+    box-shadow: inset 4px 4px 4px rgb(0, 0, 0);
+    -webkit-box-shadow: inset 4px 4px 4px rgb(0, 0, 0);
+    font-size: 1.2rem;
+
+}
+.check{
+    display:flex;
+}
+
+.fa-solid{
+    font-size: 1.2rem;
+    color: red;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+
+.message-section .button:active{
+    background-color: green;
+}
+#form{
+    display: grid;
+    grid-row: auto auto auto auto auto;
+}
+.fa-paper-plane{
+ transform: rotate(70deg);
+ font-size: 2rem;
+ transition: all 0.2s;
+ cursor: pointer;
+}
+.fa-paper-plane:active{
+    padding-right: 20px;
+}
+.button:active{
+    background-color: rgba(7, 118, 9, 0.596);
+    box-shadow: 1px 1px 3px rgb(255, 255, 255);
+    margin-right: 20px;
+}
+form p{
+    color: red;
+    font-size: 1rem;
+    margin-left: 3rem;
+
+}
+
+
+@media screen and (max-width: 1500px){
+    .start-products_detail{
+        margin:6rem auto;
+    }
+}
+@media screen and (max-width: 750px){
+    .start-products_detail{
+        width: 70%;
+    }
+    .message-section{
+        width: 70%;
+    }
+    .product-list{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 380px){
+    .start-products_detail{
+        width: 100%;
+        
+    }
+    .message-section{
+        width: 100%;
+    }
+}

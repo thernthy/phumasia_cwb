@@ -1,0 +1,79 @@
+.history{
+    height: 0;
+}
+.history-dc p{
+    line-height: 30px;
+}
+h1{
+    padding-bottom: 2rem;
+}
+.intro{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.history-dc{
+    width: 80%;
+    margin: 2rem auto;
+    text-align: left;
+}
+.history-detial{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    padding-bottom: 3rem;
+}
+.history-detial .columns-cotan{
+    display: grid;
+    grid-row: auto auto;
+    row-gap: 10px;
+}
+.history-detial .row{
+    margin: 5rem 0;
+    position: relative;
+
+}
+.history-detial .row h2{
+    text-align: left;
+    margin-left: 10px;
+}
+.history-detial .row .line{
+ position: absolute;
+ width: 0.2rem;
+ height: 98%;
+ margin-left: 20px;
+ background-color: black;
+ z-index: 2;
+}
+.history-detial .columns-cotan .item{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-left: 50px;
+}
+.history-detial .columns-cotan .item img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 1080px){
+    .history-detial{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 460px){
+    .history-detial .columns-cotan .item{
+        display: inline-block;
+
+    }
+    .history-detial .row{
+        margin: 10rem 0;
+        position: relative;
+    
+    }
+}
