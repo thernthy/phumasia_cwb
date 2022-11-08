@@ -174,7 +174,7 @@ html {
 /* ============================== */
                 .cover-container{
                     max-width: 1024px;
-                    background-image: url(../photo/Restaurants/restuarutcover.jpg);
+                    background-image: url(../Restaurants/restuarutcover.jpg);
 					background-size: cover;
 					background-repeat: no-repeat;
                     margin: 100px auto;
